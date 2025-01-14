@@ -4,6 +4,7 @@
   rustToolchain,
   fetchpatch,
   clang,
+  mold,
   cmake,
   copyDesktopItems,
   curl,
@@ -67,6 +68,7 @@ let
     nativeBuildInputs =
       [
         clang
+        mold
         cmake
         copyDesktopItems
         curl
